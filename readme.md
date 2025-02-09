@@ -49,7 +49,7 @@ Valicode/
 ---
 
 ## 🎥 YouTube Video
-📺 **Watch the full tutorial here:** [YouTube Link](#)
+📺 **Watch the full tutorial here:** [YouTube Link](https://www.youtube.com/@ValiCodeLab)
 
 ---
 
