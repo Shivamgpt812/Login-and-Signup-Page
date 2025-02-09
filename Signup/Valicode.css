@@ -1,0 +1,192 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri';
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+.main-container {
+    min-height: 100vh;
+    min-width: 450px;
+}
+
+.centered-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 400px;
+    height: 520px;
+    display: grid;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    width: 85px;
+    font-size: 50px;
+    display: grid;
+    height: 85px;
+    place-content: center;
+    border: 1px solid #2a2a2a;
+    z-index: 1;
+    justify-self: center;
+    border-radius: 50%;
+    background: #0e0e0e;
+}
+
+.fa {
+    color: #a2a2a2;
+}
+
+form {
+    flex-direction: column;
+    padding: 25px 25px 10px;
+    height: 480px; /* Increased height */
+    border-radius: 30px;
+    background: rgba(19, 19, 19, 0.736);
+    border: 1px solid rgba(255, 255, 255, 0.097);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.title {
+    position: relative;
+    margin: 0px 0;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.msg {
+    color: #fa2929;
+    position: absolute;
+    top: 17%;
+}
+
+.field {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.field .fa {
+    position: absolute;
+    font-size: 14px;
+    right: 10px;
+    bottom: 10px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(14 14 14) inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #bababa !important;
+}
+
+form input {
+    display: block;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #d2d2d2;
+    margin: 25px 0 5px;
+    caret-color: #cccccc;
+    background: transparent;
+    padding: 10px 25px 3px 0;
+    border-bottom: 1px solid #404040;
+}
+
+.action {
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+}
+
+.action label {
+    cursor: pointer;
+    color: #7d7d7d;
+}
+
+.action input {
+    width: auto;
+    margin: 0 8px 0 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.btn-container {
+    padding: 40px;
+    transition: .2s linear;
+}
+
+#signup-btn {
+    padding: 5px 20px;
+    border: none;
+    background: rgb(34, 97, 25); /* Unique color for Sign-Up button */
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 15px;
+    transition: .3s;
+    margin: 25px 0;
+    margin-bottom: 80px;
+    
+}
+
+
+#signup-btn:hover {
+    cursor: pointer;
+    background: rgb(42, 120, 31); /* Hover effect for Sign-Up button */
+}
+
+.signup {
+    color: rgb(70, 70, 70); /* Make the text visible */
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px; /* Add spacing above the text */
+    padding: 5px;
+    position: absolute; /* Position relative to the form container */
+    bottom: 15px; /* Place it at the bottom of the form */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+}
+
+
+.shift-left {
+    transform: translateX(-120%);
+}
+
+.shift-right {
+    transform: translateX(120%);
+}
+
+.shift-top {
+    transform: translateY(-150%);
+}
+
+.shift-bottom {
+    transform: translateY(150%);
+}
+
+.no-shift {
+    transform: translate(0%, 0%);
+}
