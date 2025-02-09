@@ -41,7 +41,7 @@ Valicode/
 ## 🚀 How to Use
 1. **Clone the Repository**
    ```sh
-   git clone https://shivamgpt812/Login and Signup Page.git
+   git clone https://shivamgpt812/Login-and-Signup-Page.git
    ```
 2. **Open the `Login/Valicode.html` or `Signup/Valicode Signup.html` in your browser.**
 3. **Customize and integrate into your project!** 🎯
